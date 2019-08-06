@@ -45,11 +45,11 @@ public class ScanImageActivity extends AppCompatActivity {
         }
 
 
-        /*Front Of NRC*/
+        /*Read first name*/
         Bitmap bitmap = BitmapFactory.decodeResource(ScanImageActivity.this.getResources(), R.drawable.img1);
         System.out.println(" height:"+bitmap.getWidth()+" width:"+bitmap.getHeight());
 
-        Bitmap newBitmap=Bitmap.createBitmap(bitmap,0,1500,7000,1000);
+        Bitmap newBitmap = Bitmap.createBitmap(bitmap,0,1500,7000,1000);
 
 
         Frame nrcFrontFrame = new Frame.Builder().setBitmap(newBitmap).build();
