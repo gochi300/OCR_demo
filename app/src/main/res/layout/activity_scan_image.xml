@@ -12,7 +12,27 @@
         android:layout_height="match_parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/fullNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="TextView"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/dobTextView"/>
+    <TextView
+        android:id="@+id/dobTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="TextView"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/genderTextView"/>
+    <TextView
+        android:id="@+id/genderTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"

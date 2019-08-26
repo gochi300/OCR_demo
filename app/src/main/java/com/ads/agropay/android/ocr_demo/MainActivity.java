@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, ScanActivity.class));
             }
         });
-        //**
+
+        // **
         Button button2;
         button2 = findViewById(R.id.button2);
         button2.setOnClickListener(new View.OnClickListener() {
